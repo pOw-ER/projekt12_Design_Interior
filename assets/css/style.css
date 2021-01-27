@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Work+Sans:wght@300;400;500;600&display=swap');
+
+/* font-family: 'Lora', serif;
+font-family: 'Work Sans', sans-serif; */
+
+/* Farbe: #2e2e2e / #1d2c2f  */
+
+/* =================================================================
+                      DEAFULT
+================================================================= */
+body {
+  margin: 0;
+  font-family: 'Lora', serif;
+  font-size: 12px;
+  box-sizing: border-box;
+}
+/* =================================================================
+                      HEADER TAG
+================================================================= */
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+header div{
+  width: 40%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header div h1 {
+  font-size: 5rem;
+  font-weight: normal;
+  margin-bottom: 0;
+}
+header div h2 {
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+header img {
+  width: 60%;
+  height: 100vh;
+}
+/* =================================================================
+                     NAVBAR
+================================================================= */
+
+nav {
+  position: sticky;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background-color: #2e2e2e;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+nav ul li {
+  padding-right: 100px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem;
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+/* =================================================================
+                      SECTION OUR STORY
+================================================================= */
+
+main section:nth-of-type(1) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: #2e2e2e;
+  color: #fff;
+
+}
+
+main section:nth-of-type(1) div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+main section:nth-of-type(1) div h2 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+main section:nth-of-type(1) div p {
+  text-align: justify;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-size: 1rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  line-height: 30px;
+}
+/* =================================================================
+                      SECTION FEATURED
+================================================================= */
+main section:nth-of-type(2) {
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+
+main section:nth-of-type(2) div:nth-of-type(1){
+  text-align: center;
+}
+main section:nth-of-type(2) div:nth-of-type(1) h2 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+main section:nth-of-type(2) div:nth-of-type(1) p {
+  text-align: justify;
+  width: 50%;
+  margin: 0 auto;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-size: 1rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  line-height: 30px;
+}
+/* =================================================================
+                      SECTION FEATURED PHOTOS
+================================================================= */
+
+main section:nth-of-type(2) div:nth-of-type(2) {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+main section:nth-of-type(2) div:nth-of-type(2) figure {
+  margin: 50px 0;
+  width: 25%;
+  min-width: 300px;
+}
+main section:nth-of-type(2) div:nth-of-type(2) figure img {
+  width: 100%;
+}
+main section:nth-of-type(2) div:nth-of-type(2) figure figcaption {
+  text-align: center;
+  font-weight: bold;
+  color: #999;
+  letter-spacing: 1.2px;
+}
+/* =================================================================
+                      SECTION FEATURED VIDEO
+================================================================= */
+
+main section:nth-of-type(2) div:nth-of-type(3) {
+  text-align: center;
+}
+main section:nth-of-type(2) div:nth-of-type(3) iframe{
+  width: 30%;
+  height: 30vh;
+}
+/* =================================================================
+                      FOOTER
+================================================================= */
+footer {
+  background-color: #2e2e2e;
+  color: #fff;
+  padding-top: 120px;
+}
+footer section {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+footer section article{
+  margin: 0 auto;
+  width: 40%;
+  padding: 50px;
+  text-align: center;
+}
+footer section article h2 {
+  font-size: 2rem;
+  font-weight: normal;
+}
+footer section article p {
+  text-align: justify;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  font-size: 1rem;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  line-height: 30px;
+}
+/* =================================================================
+                      FOOTER CONTACT FORM
+================================================================= */
+footer section div{
+  width: 40%;
+  margin: 0 auto;
+  padding: 100px 50px;
+}
+footer section div form {
+  width: 80%;
+}
+footer section div form input:not(#button), footer section div form textarea{
+  width: 100%;
+  margin-bottom: 20px;
+  outline: none;
+}
+footer section div form input#button {
+  margin-top: 30px;
+}
+
+/* =================================================================
+                      FOOTER COPYRIGHT
+================================================================= */
+footer>div {
+  padding: 20px 20px;
+  background-color: #1d2c2f;
+  display: flex;
+  justify-content: space-between;
+  font-size: 1rem;
+}
+
+footer>div ul {
+  list-style: none;
+  display: flex;
+}
+footer>div ul li {
+  padding-left: 40px;
+}
+footer>div ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+/* =================================================================
+                      MEDIA QUERIES
+================================================================= */
+
+@media (max-width: 1200px){
+  main section:nth-of-type(1) {
+    grid-template-columns: 1fr;
+  }
+  main section:nth-of-type(1) img{
+    width: 80%;
+    display: inline-block;
+    margin: 0 auto;
+  }
+  footer section article, footer section div {
+    width: 70%;
+  }
+}
+@media (max-width: 768px){
+  nav ul {
+    display: none;
+  }
+  header div{
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+  }
+  header img {
+    width: 100%;
+    height: auto;
+  }
+  main section:nth-of-type(2) div:nth-of-type(3) iframe{
+    width: 80%;
+    height: 50vh;
+  }
+
+  footer>div {
+    background-color: #1d2c2f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer>div ul {
+    padding: 0;
+  }
+  footer>div ul li {
+    padding: 5px;
+  }
+}
