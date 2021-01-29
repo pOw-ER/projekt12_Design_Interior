@@ -71,7 +71,9 @@ nav ul li a {
   font-size: 1.2rem;
   font-family: 'Work Sans', sans-serif;
 }
-
+nav>a {
+  display: none;
+}
 
 /* =================================================================
                       SECTION OUR STORY
@@ -262,6 +264,12 @@ footer>div ul li a {
 @media (max-width: 768px){
   nav ul {
     display: none;
+  }
+  nav>a {
+    display: inline-block;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 50px;
   }
   header div{
     width: 100%;

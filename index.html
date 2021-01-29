@@ -5,7 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Design Interior</title>
+  <!-- CSS VERLINKUNG  -->
   <link rel="stylesheet" href="assets/css/style.css">
+  <!-- FONT AWESOME CDN  -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
 
 <body>
@@ -20,6 +24,7 @@
   <!-- NAVBAR -->
   <nav>
     <img src="assets/img/logo.png" alt="LOGO">
+    <a href=""><i class="fas fa-bars"></i></a>
     <ul>
       <li><a href="">H & H</a></li>
       <li><a href="">OUR STORY</a></li>
@@ -84,7 +89,7 @@
           <label for="email">Email</label><br>
           <input type="email" id="email" name="email" placeholder="Enter email" required><br>
           <label for="message">Message</label><br>
-          <textarea name="message" rows="2" cols="50">
+          <textarea id="message" name="message" placeholder="Enter" rows="2" cols="50">
             Optional.
           </textarea><br>
           <input type="button" value="Submit" id="button">
