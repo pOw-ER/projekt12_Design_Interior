@@ -1,0 +1,24 @@
+{
+  "name": "12.projekt_design_interior",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pOw-ER/projekt12_Design_Interior.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pOw-ER/projekt12_Design_Interior/issues"
+  },
+  "homepage": "https://github.com/pOw-ER/projekt12_Design_Interior#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.32.6"
+  }
+}
